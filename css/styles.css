@@ -139,7 +139,7 @@ nav{
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(to right,var(--hero-gradient),var(--hero-gradient)),
-    url(/images/hero-team.jpg);
+    url(../images/hero-team.jpg);
     max-width: 1600px;
     height:600px;
     margin-left: auto;
