@@ -285,20 +285,22 @@ img{
     display: flex;
     gap:10px; 
     justify-content: center; 
-    fill:var(--social-net-color);
 }
 
-.social-net-logo{
+/*.social-net-logo{}*/
+
+.social-net-logo-link{
     display: flex;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    fill: var(--social-net-color);
 }
 
-.social-net-logo:hover,
-.social-net-logo:focus{
+.social-net-logo-link:hover,
+.social-net-logo-link:focus{
     fill: var(--primary-back-color);
     background-color:var(--accent-color);
 }
@@ -310,22 +312,24 @@ img{
     justify-content: center;
 }
 
-.client{
-    display:flex;
-    width:170px ;
-    height:94px ;
+/*.client{ }*/
+
+.client-card{
+    display: flex;
+    width: 170px;
+    height: 94px;
     justify-content: center;
     align-items: center;
     border: 1px solid var(--social-net-color);
     border-radius: 4px;
+    fill: var(--social-net-color);
 }
 
-.client:hover,
-.client:focus{
+.client-card:hover,
+.client-card:focus{
     border: 1px solid var(--accent-color);
     fill:var(--accent-color)
 }
-
 
 footer{
     background-color:var(--hero-color); 
@@ -357,10 +361,11 @@ footer{
     display: flex;
     gap: 10px;
     justify-content: center;
-    fill: var(--primary-back-color);
 }
 
-.footer-social-net-logo {
+/*.footer-social-net-logo {}*/
+
+.footer-soc-net-logo-link{
     display: flex;
     width: 44px;
     height: 44px;
@@ -368,10 +373,11 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: var(--social-net-footer-color);
+    fill: var(--primary-back-color);
 }
 
-.footer-social-net-logo:hover,
-.footer-social-net-logo:focus{
+.footer-soc-net-logo-link:hover,
+.footer-soc-net-logo-link:focus{
     background-color: var(--accent-color);
 }
 
@@ -411,8 +417,6 @@ footer{
     gap:8px;
     margin-bottom: 50px;
 }
-
-
 
 .portfolio button {
     font-family: inherit;
@@ -461,8 +465,6 @@ footer{
      rgba(0, 0, 0, 0.06), 1px 4px 6px
      rgba(0, 0, 0, 0.16);
 }
-
-
 
 .project-card{
     max-width: 370px;
