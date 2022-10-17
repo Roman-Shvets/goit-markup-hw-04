@@ -321,14 +321,15 @@ img{
     justify-content: center;
     align-items: center;
     border: 1px solid var(--social-net-color);
-    border-radius: 4px;
     fill: var(--social-net-color);
+    border-radius: 4px;
+    
 }
 
 .client-card:hover,
 .client-card:focus{
-    border: 1px solid var(--accent-color);
-    fill:var(--accent-color)
+    fill:var(--accent-color);
+    border-color:var(--accent-color) ;
 }
 
 footer{
@@ -458,8 +459,13 @@ footer{
     flex-basis: calc(100%/3 -30px);
 }
 
-.item:hover,
-.item:focus{
+.project-item-link {
+    display: block;
+    text-decoration: none;
+}
+
+.project-item-link:hover,
+.project-item-link:focus{
     box-shadow: 0px 1px 1px
      rgba(0, 0, 0, 0.12), 0px 4px 4px 
      rgba(0, 0, 0, 0.06), 1px 4px 6px
@@ -487,4 +493,5 @@ footer{
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }       
